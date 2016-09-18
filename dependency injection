@@ -1,0 +1,3 @@
+DI is a technique for achiving loose coupling bwtween objects and thier collaborators, or dependencies.
+refer the following link for high level overview of Dependency Injection(DI).
+>http://www.theserverside.com/news/1321158/A-beginners-guide-to-Dependency-Injection
