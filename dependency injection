@@ -1,3 +1,50 @@
-DI is a technique for achiving loose coupling bwtween objects and thier collaborators, or dependencies.
+DI is a technique for achiving loose coupling between objects and thier collaborators, or dependencies.
+
+Scenario 1:
+
+In an organization employees do travel. Genarally they travel by air, and the procedure would follow these step.
+1. Decide destination.
+2. Call airline agency and book flight ticket by giving necessary information.
+3. Call up the cab agency to be able to catch a particular flight from say your residence.
+4. Pick up the ticket, catch the cab and be on your way.
+
+Now t=if the company suddenly changed the preferred agency and thier contact mechanism, then all the employees should relearn 
+1. New agency and their contact mechanism.
+2. The typical converzation sequence through which the necessary bookings get done (Data instead of voice).
+
+
+Scenario 2:
+
+Now lets say the protocol is a little bit different. 
+You have an administration department. 
+Whenever you needed to travel an administration 
+department interactive telephony system simply calls you up 
+(which in turn is hooked up to the agencies). 
+Over the phone you simply state the destination, desired arrival date and 
+time by responding to a programmed set of questions. 
+The flight reservations are made for you, 
+the cab gets scheduled for the appropriate time, and 
+the tickets get delivered to you.
+
+Now if the preferred agencies were changed, 
+the administration department would become aware of a change, 
+would perhaps readjust its workflow to be able to communicate with the agencies. 
+The interactive telephony system could be reprogrammed to communicate with the agencies over the internet. 
+However you and your colleagues would have no relearning required. 
+You still continue to follow exactly the same protocol as earlier 
+(since the administration department did all the necessary adaptation in a manner that you do not need to do anything differently).
+
+
+In both the scenarios, you are the client and you are dependent upon the services provided by the agencies. However Scenario 2 has a few differences.
+
+>You don't need to know the contact numbers / contact points of the agencies – the administration department calls you when necessary.
+>You don't need to know the exact conversational sequence by which they conduct their activities (Voice / Data etc.) 
+(though you are aware of a particular standardized conversational sequence with the administration department)
+>The services you are dependent upon are provided to you in a manner that you do not need to readjust should the service providers change.
+>Thats dependency injection in “real life”. 
+This may not seem like a lot since you imagine a cost to yourself as a single person – 
+but if you imagine a large organization the savings are likely to be substantial
+
+
 refer the following link for high level overview of Dependency Injection(DI).
 >http://www.theserverside.com/news/1321158/A-beginners-guide-to-Dependency-Injection
