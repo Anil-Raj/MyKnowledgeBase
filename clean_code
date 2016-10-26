@@ -1,0 +1,115 @@
+Introduction
+Why should I care?
+The Foundations
+We are Authors
+Conventions
+Resources
+
+Principles
+19m 48s
+Three Core Principles2m 1s
+The Right Tool for The Job1m 51s
+Boundaries Matter: Stay Native6m 47s
+Potential Evil1m 1s
+Signal to Noise Ratio3m 22s
+DRY Principle2m 20s
+Self-documenting Code1m 39s
+Summary
+
+Naming
+16m 5s
+Introduction34s
+Naming Matters2m 7s
+Classes3m 47s
+Methods2m 15s
+Rubber Ducking1m 9s
+Warning Signs32s
+Side Effects50s
+Abbreviations1m 40s
+Booleans1m 15s
+Symmetry1m 0s
+Summary
+
+Conditionals
+26m 35s
+Introduction2m 19s
+Boolean Comparisons36s
+Boolean Assignments2m 3s
+Positive Conditionals1m 31s
+Ternary Elegance2m 33s
+Stringly Typed2m 51s
+Magic Numbers2m 7s
+Complex Conditionals4m 16s
+Polymorphism vs Enums2m 16s
+Be Declarative2m 45s
+Table Driven Methods2m 39s
+Summary
+
+Functions
+26m 52s
+Intro1m 14s
+When to Create A Function1m 45s
+Avoid Duplication1m 7s
+Excessive Indentation Overview1m 16s
+Extract Method2m 25s
+Return Early1m 57s
+Fail Fast2m 18s
+Convey Intent1m 33s
+Do One Thing1m 14s
+Mayfly Variables2m 0s
+Parameters1m 41s
+What's Too Long?3m 11s
+Exceptions4m 0s
+Summary
+
+Classes
+18m 47s
+Intro1m 23s
+When to Create2m 45s
+Cohesion6m 57s
+When is A Class too Small?1m 20s
+Primitive Obsession1m 54s
+Principle of Proximity1m 14s
+Outline Rule2m 19s
+Summary
+
+Comments
+21m 23s
+Introduction1m 43s
+Necessity and Crutch56s
+Redundant1m 59s
+Intent50s
+Apologies and Warnings1m 31s
+Zombie Code7m 26s
+Dividers and Brace Trackers1m 18s
+Bloated Header55s
+Defect Log42s
+Clean Comments2m 53s
+Summary
+
+Demo
+42m 3s
+Introduction4m 54s
+Registration Overview2m 8s
+Code Metrics1m 21s
+Automated Tests51s
+Comments2m 15s
+Mayfly Variables3m 2s
+Guard Clause2m 8s
+Naming Issues1m 11s
+Returning Early3m 48s
+Refactor Red Flags2m 59s
+Consolidate Guards and Clarify Intent5m 46s
+Table Driven Method and Fail Fast1m 28s
+Outline Rule2m 59s
+Regression Test1m 56s
+Bug Fixes: What a contrast!2m 7s
+Code Metric Results and Conclusions
+
+Stay clean
+6m 10s
+When to Refactor1m 52s
+Broken Windows1m 5s
+Code Reviews & Pair Programming1m 33s
+Boy Scout Rule23s
+Conclusion
